@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377B3E0C155B1EF400D5615C /* AmericanCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 377B3E0B155B1EF400D5615C /* AmericanCalendar.m */; };
+		378D86161550E7530050A38F /* IslamicCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D86151550E7530050A38F /* IslamicCalendar.m */; };
+		3799741A15473377005F10A1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3799741815473377005F10A1 /* MainStoryboard.storyboard */; };
+		D43B86B4150D508E0004A214 /* Week.m in Sources */ = {isa = PBXBuildFile; fileRef = D43B86B3150D508E0004A214 /* Week.m */; };
+		D455B7A41525890B00B5D4DC /* GregorianCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D455B7A31525890B00B5D4DC /* GregorianCalendar.m */; };
+		D459F1491548E1C000D8637D /* 14_rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = D459F1481548E1C000D8637D /* 14_rotate.png */; };
+		D4713072150AEAFB00C05A47 /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = D4713071150AEAFB00C05A47 /* Day.m */; };
+		D473B9CE1548D97A00DA687D /* MonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = D473B9CB1548D97A00DA687D /* MonthView.m */; };
+		D473B9CF1548D97A00DA687D /* MonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D473B9CD1548D97A00DA687D /* MonthViewController.m */; };
+		D4854CED154896840076B98A /* lunar.png in Resources */ = {isa = PBXBuildFile; fileRef = D4854CEC154896840076B98A /* lunar.png */; };
+		D48673E11542599900A355E6 /* CircularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48673E01542599900A355E6 /* CircularViewController.m */; };
+		D48673E81542686900A355E6 /* YearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48673E71542686900A355E6 /* YearViewController.m */; };
+		D4A69DD01523E9E900EA3F82 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A69DCF1523E9E900EA3F82 /* FindViewController.m */; };
+		D4AD84D51547CCD90035A2AC /* bluebackward.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AD84D11547CCD90035A2AC /* bluebackward.png */; };
+		D4AD84D61547CCD90035A2AC /* blueforward.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AD84D21547CCD90035A2AC /* blueforward.png */; };
+		D4AD84D71547CCD90035A2AC /* graybackward.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AD84D31547CCD90035A2AC /* graybackward.png */; };
+		D4AD84D81547CCD90035A2AC /* grayforward.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AD84D41547CCD90035A2AC /* grayforward.png */; };
+		D54B49D7150D74CF00DC5E84 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54B49D6150D74CF00DC5E84 /* CoreText.framework */; };
+		D574767D1548C4A700186093 /* chinese.png in Resources */ = {isa = PBXBuildFile; fileRef = D57476731548C4A600186093 /* chinese.png */; };
+		D574767E1548C4A700186093 /* chinesetap.png in Resources */ = {isa = PBXBuildFile; fileRef = D57476741548C4A600186093 /* chinesetap.png */; };
+		D574767F1548C4A700186093 /* gregorian.png in Resources */ = {isa = PBXBuildFile; fileRef = D57476751548C4A600186093 /* gregorian.png */; };
+		D57476801548C4A700186093 /* gregoriantap.png in Resources */ = {isa = PBXBuildFile; fileRef = D57476761548C4A600186093 /* gregoriantap.png */; };
+		D57476811548C4A700186093 /* hebrew.png in Resources */ = {isa = PBXBuildFile; fileRef = D57476771548C4A600186093 /* hebrew.png */; };
+		D57476821548C4A700186093 /* hebrewtap.png in Resources */ = {isa = PBXBuildFile; fileRef = D57476781548C4A600186093 /* hebrewtap.png */; };
+		D57476831548C4A700186093 /* hindu.png in Resources */ = {isa = PBXBuildFile; fileRef = D57476791548C4A600186093 /* hindu.png */; };
+		D57476841548C4A700186093 /* hindutap.png in Resources */ = {isa = PBXBuildFile; fileRef = D574767A1548C4A700186093 /* hindutap.png */; };
+		D57476851548C4A700186093 /* islamic.png in Resources */ = {isa = PBXBuildFile; fileRef = D574767B1548C4A700186093 /* islamic.png */; };
+		D57476861548C4A700186093 /* islamictap.png in Resources */ = {isa = PBXBuildFile; fileRef = D574767C1548C4A700186093 /* islamictap.png */; };
+		D58C341D15479A9900D04AC6 /* HebrewCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C341C15479A9800D04AC6 /* HebrewCalendar.m */; };
+		D5EEE3B3150AD8020042D89B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EEE3B2150AD8020042D89B /* UIKit.framework */; };
+		D5EEE3B5150AD8020042D89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EEE3B4150AD8020042D89B /* Foundation.framework */; };
+		D5EEE3B7150AD8020042D89B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EEE3B6150AD8020042D89B /* CoreGraphics.framework */; };
+		D5EEE3BD150AD8020042D89B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5EEE3BB150AD8020042D89B /* InfoPlist.strings */; };
+		D5EEE3BF150AD8020042D89B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEE3BE150AD8020042D89B /* main.m */; };
+		D5EEE3C3150AD8020042D89B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEE3C2150AD8020042D89B /* AppDelegate.m */; };
+		D5EEE3C9150AD8020042D89B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEE3C8150AD8020042D89B /* ViewController.m */; };
+		D5EEE3D4150AD8780042D89B /* YearView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEE3D3150AD8780042D89B /* YearView.m */; };
+		D5EEE3D7150AD8B20042D89B /* CircularYearView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEE3D6150AD8B20042D89B /* CircularYearView.m */; };
+		D5EEE3DA150AD8D80042D89B /* Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEE3D9150AD8D80042D89B /* Calendar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		377B3E0A155B1EF400D5615C /* AmericanCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericanCalendar.h; sourceTree = "<group>"; };
+		377B3E0B155B1EF400D5615C /* AmericanCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmericanCalendar.m; sourceTree = "<group>"; };
+		378D86141550E7530050A38F /* IslamicCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IslamicCalendar.h; sourceTree = "<group>"; };
+		378D86151550E7530050A38F /* IslamicCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IslamicCalendar.m; sourceTree = "<group>"; };
+		3799741915473377005F10A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Lunisolar/en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D43B86B2150D508E0004A214 /* Week.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Week.h; sourceTree = "<group>"; };
+		D43B86B3150D508E0004A214 /* Week.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Week.m; sourceTree = "<group>"; };
+		D455B7A21525890B00B5D4DC /* GregorianCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GregorianCalendar.h; sourceTree = "<group>"; };
+		D455B7A31525890B00B5D4DC /* GregorianCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GregorianCalendar.m; sourceTree = "<group>"; };
+		D459F1481548E1C000D8637D /* 14_rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14_rotate.png; sourceTree = "<group>"; };
+		D4713070150AEAFB00C05A47 /* Day.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
+		D4713071150AEAFB00C05A47 /* Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Day.m; sourceTree = "<group>"; };
+		D473B9CA1548D97A00DA687D /* MonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthView.h; sourceTree = "<group>"; };
+		D473B9CB1548D97A00DA687D /* MonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthView.m; sourceTree = "<group>"; };
+		D473B9CC1548D97A00DA687D /* MonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthViewController.h; sourceTree = "<group>"; };
+		D473B9CD1548D97A00DA687D /* MonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthViewController.m; sourceTree = "<group>"; };
+		D4854CEC154896840076B98A /* lunar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lunar.png; path = ../lunar.png; sourceTree = "<group>"; };
+		D48673DF1542599900A355E6 /* CircularViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularViewController.h; sourceTree = "<group>"; };
+		D48673E01542599900A355E6 /* CircularViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularViewController.m; sourceTree = "<group>"; };
+		D48673E61542686900A355E6 /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearViewController.h; sourceTree = "<group>"; };
+		D48673E71542686900A355E6 /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearViewController.m; sourceTree = "<group>"; };
+		D4A69DCE1523E9E900EA3F82 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		D4A69DCF1523E9E900EA3F82 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		D4AD84D11547CCD90035A2AC /* bluebackward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluebackward.png; path = ../bluebackward.png; sourceTree = "<group>"; };
+		D4AD84D21547CCD90035A2AC /* blueforward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueforward.png; path = ../blueforward.png; sourceTree = "<group>"; };
+		D4AD84D31547CCD90035A2AC /* graybackward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = graybackward.png; path = ../graybackward.png; sourceTree = "<group>"; };
+		D4AD84D41547CCD90035A2AC /* grayforward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayforward.png; path = ../grayforward.png; sourceTree = "<group>"; };
+		D54B49D6150D74CF00DC5E84 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D57476731548C4A600186093 /* chinese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chinese.png; sourceTree = SOURCE_ROOT; };
+		D57476741548C4A600186093 /* chinesetap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chinesetap.png; sourceTree = SOURCE_ROOT; };
+		D57476751548C4A600186093 /* gregorian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gregorian.png; sourceTree = SOURCE_ROOT; };
+		D57476761548C4A600186093 /* gregoriantap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gregoriantap.png; sourceTree = SOURCE_ROOT; };
+		D57476771548C4A600186093 /* hebrew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hebrew.png; sourceTree = SOURCE_ROOT; };
+		D57476781548C4A600186093 /* hebrewtap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hebrewtap.png; sourceTree = SOURCE_ROOT; };
+		D57476791548C4A600186093 /* hindu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hindu.png; sourceTree = SOURCE_ROOT; };
+		D574767A1548C4A700186093 /* hindutap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hindutap.png; sourceTree = SOURCE_ROOT; };
+		D574767B1548C4A700186093 /* islamic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = islamic.png; sourceTree = SOURCE_ROOT; };
+		D574767C1548C4A700186093 /* islamictap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = islamictap.png; sourceTree = SOURCE_ROOT; };
+		D58C341B15479A9800D04AC6 /* HebrewCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HebrewCalendar.h; sourceTree = "<group>"; };
+		D58C341C15479A9800D04AC6 /* HebrewCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HebrewCalendar.m; sourceTree = "<group>"; };
+		D5EEE3AE150AD8020042D89B /* Lunisolar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lunisolar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EEE3B2150AD8020042D89B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5EEE3B4150AD8020042D89B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5EEE3B6150AD8020042D89B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5EEE3BA150AD8020042D89B /* Lunisolar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lunisolar-Info.plist"; sourceTree = "<group>"; };
+		D5EEE3BC150AD8020042D89B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5EEE3BE150AD8020042D89B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5EEE3C0150AD8020042D89B /* Lunisolar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lunisolar-Prefix.pch"; sourceTree = "<group>"; };
+		D5EEE3C1150AD8020042D89B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5EEE3C2150AD8020042D89B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5EEE3C7150AD8020042D89B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5EEE3C8150AD8020042D89B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5EEE3D2150AD8780042D89B /* YearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearView.h; sourceTree = "<group>"; };
+		D5EEE3D3150AD8780042D89B /* YearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearView.m; sourceTree = "<group>"; };
+		D5EEE3D5150AD8B20042D89B /* CircularYearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularYearView.h; sourceTree = "<group>"; };
+		D5EEE3D6150AD8B20042D89B /* CircularYearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularYearView.m; sourceTree = "<group>"; };
+		D5EEE3D8150AD8D80042D89B /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
+		D5EEE3D9150AD8D80042D89B /* Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calendar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5EEE3AB150AD8020042D89B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54B49D7150D74CF00DC5E84 /* CoreText.framework in Frameworks */,
+				D5EEE3B3150AD8020042D89B /* UIKit.framework in Frameworks */,
+				D5EEE3B5150AD8020042D89B /* Foundation.framework in Frameworks */,
+				D5EEE3B7150AD8020042D89B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D455B79A152586B500B5D4DC /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D5EEE3D8150AD8D80042D89B /* Calendar.h */,
+				D5EEE3D9150AD8D80042D89B /* Calendar.m */,
+				D4713070150AEAFB00C05A47 /* Day.h */,
+				D4713071150AEAFB00C05A47 /* Day.m */,
+				D43B86B2150D508E0004A214 /* Week.h */,
+				D43B86B3150D508E0004A214 /* Week.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		D455B79B152586CD00B5D4DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5EEE3D5150AD8B20042D89B /* CircularYearView.h */,
+				D5EEE3D6150AD8B20042D89B /* CircularYearView.m */,
+				D5EEE3D2150AD8780042D89B /* YearView.h */,
+				D5EEE3D3150AD8780042D89B /* YearView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D455B79C152586D800B5D4DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4A69DCE1523E9E900EA3F82 /* FindViewController.h */,
+				D4A69DCF1523E9E900EA3F82 /* FindViewController.m */,
+				D5EEE3C7150AD8020042D89B /* ViewController.h */,
+				D5EEE3C8150AD8020042D89B /* ViewController.m */,
+				D48673DF1542599900A355E6 /* CircularViewController.h */,
+				D48673E01542599900A355E6 /* CircularViewController.m */,
+				D48673E61542686900A355E6 /* YearViewController.h */,
+				D48673E71542686900A355E6 /* YearViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D455B7A1152588F500B5D4DC /* Calendars */ = {
+			isa = PBXGroup;
+			children = (
+				D455B7A21525890B00B5D4DC /* GregorianCalendar.h */,
+				D455B7A31525890B00B5D4DC /* GregorianCalendar.m */,
+				378D86141550E7530050A38F /* IslamicCalendar.h */,
+				378D86151550E7530050A38F /* IslamicCalendar.m */,
+				D58C341B15479A9800D04AC6 /* HebrewCalendar.h */,
+				D58C341C15479A9800D04AC6 /* HebrewCalendar.m */,
+				377B3E0A155B1EF400D5615C /* AmericanCalendar.h */,
+				377B3E0B155B1EF400D5615C /* AmericanCalendar.m */,
+			);
+			name = Calendars;
+			sourceTree = "<group>";
+		};
+		D4854CD915488EEB0076B98A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D459F1481548E1C000D8637D /* 14_rotate.png */,
+				D4854CEC154896840076B98A /* lunar.png */,
+				D57476741548C4A600186093 /* chinesetap.png */,
+				D57476751548C4A600186093 /* gregorian.png */,
+				D57476761548C4A600186093 /* gregoriantap.png */,
+				D57476771548C4A600186093 /* hebrew.png */,
+				D57476781548C4A600186093 /* hebrewtap.png */,
+				D57476791548C4A600186093 /* hindu.png */,
+				D574767A1548C4A700186093 /* hindutap.png */,
+				D574767B1548C4A700186093 /* islamic.png */,
+				D574767C1548C4A700186093 /* islamictap.png */,
+				D57476731548C4A600186093 /* chinese.png */,
+				D4AD84D11547CCD90035A2AC /* bluebackward.png */,
+				D4AD84D21547CCD90035A2AC /* blueforward.png */,
+				D4AD84D31547CCD90035A2AC /* graybackward.png */,
+				D4AD84D41547CCD90035A2AC /* grayforward.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D5EEE3A3150AD8010042D89B = {
+			isa = PBXGroup;
+			children = (
+				D54B49D6150D74CF00DC5E84 /* CoreText.framework */,
+				D5EEE3B8150AD8020042D89B /* Lunisolar */,
+				D5EEE3B1150AD8020042D89B /* Frameworks */,
+				D5EEE3AF150AD8020042D89B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5EEE3AF150AD8020042D89B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5EEE3AE150AD8020042D89B /* Lunisolar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5EEE3B1150AD8020042D89B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EEE3B2150AD8020042D89B /* UIKit.framework */,
+				D5EEE3B4150AD8020042D89B /* Foundation.framework */,
+				D5EEE3B6150AD8020042D89B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EEE3B8150AD8020042D89B /* Lunisolar */ = {
+			isa = PBXGroup;
+			children = (
+				3799741815473377005F10A1 /* MainStoryboard.storyboard */,
+				D473B9CA1548D97A00DA687D /* MonthView.h */,
+				D473B9CB1548D97A00DA687D /* MonthView.m */,
+				D473B9CC1548D97A00DA687D /* MonthViewController.h */,
+				D473B9CD1548D97A00DA687D /* MonthViewController.m */,
+				D4854CD915488EEB0076B98A /* Images */,
+				D5EEE3C1150AD8020042D89B /* AppDelegate.h */,
+				D5EEE3C2150AD8020042D89B /* AppDelegate.m */,
+				D455B7A1152588F500B5D4DC /* Calendars */,
+				D455B79A152586B500B5D4DC /* Objects */,
+				D455B79B152586CD00B5D4DC /* Views */,
+				D455B79C152586D800B5D4DC /* ViewControllers */,
+				D5EEE3B9150AD8020042D89B /* Supporting Files */,
+			);
+			path = Lunisolar;
+			sourceTree = "<group>";
+		};
+		D5EEE3B9150AD8020042D89B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5EEE3BA150AD8020042D89B /* Lunisolar-Info.plist */,
+				D5EEE3BB150AD8020042D89B /* InfoPlist.strings */,
+				D5EEE3BE150AD8020042D89B /* main.m */,
+				D5EEE3C0150AD8020042D89B /* Lunisolar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5EEE3AD150AD8020042D89B /* Lunisolar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EEE3CC150AD8020042D89B /* Build configuration list for PBXNativeTarget "Lunisolar" */;
+			buildPhases = (
+				D5EEE3AA150AD8020042D89B /* Sources */,
+				D5EEE3AB150AD8020042D89B /* Frameworks */,
+				D5EEE3AC150AD8020042D89B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lunisolar;
+			productName = Lunisolar;
+			productReference = D5EEE3AE150AD8020042D89B /* Lunisolar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5EEE3A5150AD8010042D89B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D5EEE3A8150AD8010042D89B /* Build configuration list for PBXProject "Lunisolar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5EEE3A3150AD8010042D89B;
+			productRefGroup = D5EEE3AF150AD8020042D89B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5EEE3AD150AD8020042D89B /* Lunisolar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5EEE3AC150AD8020042D89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EEE3BD150AD8020042D89B /* InfoPlist.strings in Resources */,
+				3799741A15473377005F10A1 /* MainStoryboard.storyboard in Resources */,
+				D4AD84D51547CCD90035A2AC /* bluebackward.png in Resources */,
+				D4AD84D61547CCD90035A2AC /* blueforward.png in Resources */,
+				D4AD84D71547CCD90035A2AC /* graybackward.png in Resources */,
+				D4AD84D81547CCD90035A2AC /* grayforward.png in Resources */,
+				D4854CED154896840076B98A /* lunar.png in Resources */,
+				D574767D1548C4A700186093 /* chinese.png in Resources */,
+				D574767E1548C4A700186093 /* chinesetap.png in Resources */,
+				D574767F1548C4A700186093 /* gregorian.png in Resources */,
+				D57476801548C4A700186093 /* gregoriantap.png in Resources */,
+				D57476811548C4A700186093 /* hebrew.png in Resources */,
+				D57476821548C4A700186093 /* hebrewtap.png in Resources */,
+				D57476831548C4A700186093 /* hindu.png in Resources */,
+				D57476841548C4A700186093 /* hindutap.png in Resources */,
+				D57476851548C4A700186093 /* islamic.png in Resources */,
+				D57476861548C4A700186093 /* islamictap.png in Resources */,
+				D459F1491548E1C000D8637D /* 14_rotate.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5EEE3AA150AD8020042D89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EEE3BF150AD8020042D89B /* main.m in Sources */,
+				D5EEE3C3150AD8020042D89B /* AppDelegate.m in Sources */,
+				D5EEE3C9150AD8020042D89B /* ViewController.m in Sources */,
+				D5EEE3D4150AD8780042D89B /* YearView.m in Sources */,
+				D5EEE3D7150AD8B20042D89B /* CircularYearView.m in Sources */,
+				D5EEE3DA150AD8D80042D89B /* Calendar.m in Sources */,
+				D4713072150AEAFB00C05A47 /* Day.m in Sources */,
+				D43B86B4150D508E0004A214 /* Week.m in Sources */,
+				D4A69DD01523E9E900EA3F82 /* FindViewController.m in Sources */,
+				D455B7A41525890B00B5D4DC /* GregorianCalendar.m in Sources */,
+				D48673E11542599900A355E6 /* CircularViewController.m in Sources */,
+				D48673E81542686900A355E6 /* YearViewController.m in Sources */,
+				D58C341D15479A9900D04AC6 /* HebrewCalendar.m in Sources */,
+				D473B9CE1548D97A00DA687D /* MonthView.m in Sources */,
+				D473B9CF1548D97A00DA687D /* MonthViewController.m in Sources */,
+				378D86161550E7530050A38F /* IslamicCalendar.m in Sources */,
+				377B3E0C155B1EF400D5615C /* AmericanCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3799741815473377005F10A1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3799741915473377005F10A1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D5EEE3BB150AD8020042D89B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EEE3BC150AD8020042D89B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5EEE3CA150AD8020042D89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D5EEE3CB150AD8020042D89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5EEE3CD150AD8020042D89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lunisolar/Lunisolar-Prefix.pch";
+				INFOPLIST_FILE = "Lunisolar/Lunisolar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5EEE3CE150AD8020042D89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lunisolar/Lunisolar-Prefix.pch";
+				INFOPLIST_FILE = "Lunisolar/Lunisolar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5EEE3A8150AD8010042D89B /* Build configuration list for PBXProject "Lunisolar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EEE3CA150AD8020042D89B /* Debug */,
+				D5EEE3CB150AD8020042D89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5EEE3CC150AD8020042D89B /* Build configuration list for PBXNativeTarget "Lunisolar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EEE3CD150AD8020042D89B /* Debug */,
+				D5EEE3CE150AD8020042D89B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5EEE3A5150AD8010042D89B /* Project object */;
+}
